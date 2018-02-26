@@ -43,7 +43,7 @@ RenderSettings:
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_GIWorkflowMode: 0
+  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -86,7 +86,8 @@ LightmapSettings:
     m_PVRFilteringAtrousColorSigma: 1
     m_PVRFilteringAtrousNormalSigma: 1
     m_PVRFilteringAtrousPositionSigma: 1
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000002, guid: 2042deaf51c25f44199b07ec4d15da9b,
+    type: 2}
   m_ShadowMaskMode: 2
 --- !u!196 &4
 NavMeshSettings:
@@ -1350,81 +1351,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 491478914}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c35d0474726f2b6429cf988a9dacff69, type: 3}
+  m_Script: {fileID: 11500000, guid: dcc6da6d82a0dc342b241b8d861eea1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PLAYER_CHARACTER: {fileID: 491478914}
-  PLAYER_SKIN:
-  - {fileID: 2100000, guid: 159ef2c65b32fdc40bbc90a097f57688, type: 2}
-  - {fileID: 2100000, guid: 479bed60f8e842e4eaeaeee19705c358, type: 2}
-  - {fileID: 2100000, guid: 8aedc65b298239f4ca5b3e11344781c1, type: 2}
-  - {fileID: 2100000, guid: 3052986baa7616940a7edfb486d7c431, type: 2}
-  - {fileID: 2100000, guid: c9cd85b7607328745ae69a4fe3e76d0b, type: 2}
-  - {fileID: 2100000, guid: 55920bb9f7f471c4eaa48e457090c946, type: 2}
-  - {fileID: 2100000, guid: 069015fb795c2f44daf1d8c54aab81be, type: 2}
-  - {fileID: 2100000, guid: c59fa1eae889d874f93fc306e33cf844, type: 2}
-  - {fileID: 2100000, guid: 2543bda4816203446adfeb31c80716b1, type: 2}
-  - {fileID: 2100000, guid: f111079428c838343a248141db958de6, type: 2}
-  - {fileID: 2100000, guid: cd8e860dd6400b9498b2fd1749ebfd8c, type: 2}
-  - {fileID: 2100000, guid: ce0e25d07ceddfc4ab142f0dbdf69a99, type: 2}
-  - {fileID: 2100000, guid: 4d4b25a3e11090542acaaae2149719c5, type: 2}
-  - {fileID: 2100000, guid: 3ea81558f28f62e40b43b8e56242e763, type: 2}
-  - {fileID: 2100000, guid: 8371ab646f271aa40bd3fa052f77837c, type: 2}
-  - {fileID: 2100000, guid: a7fa442b4f06b79429e730b60e06e931, type: 2}
-  CLOTH_01LOD0: {fileID: 507680075}
-  CLOTH_01LOD0_SKIN: {fileID: 0}
-  CLOTH_02LOD0: {fileID: 1996938346}
-  CLOTH_02LOD0_SKIN: {fileID: 0}
-  CLOTH_03LOD0: {fileID: 190455253}
-  CLOTH_03LOD0_SKIN: {fileID: 0}
-  CLOTH_03LOD0_FAT: {fileID: 741909179}
-  BELT_LOD0: {fileID: 2117147377}
-  SKN_LOD0: {fileID: 1536080783}
-  FAT_LOD0: {fileID: 38020720}
-  RGL_LOD0: {fileID: 1536080783}
-  HAIR_LOD0: {fileID: 0}
-  BOW_LOD0: {fileID: 0}
-  GLADIATOR_01LOD0: {fileID: 0}
-  HELMET_01LOD0: {fileID: 0}
-  HELMET_02LOD0: {fileID: 0}
-  HELMET_03LOD0: {fileID: 0}
-  HELMET_04LOD0: {fileID: 0}
-  SHOULDER_PAD_R_01LOD0: {fileID: 0}
-  SHOULDER_PAD_R_02LOD0: {fileID: 0}
-  SHOULDER_PAD_R_03LOD0: {fileID: 0}
-  SHOULDER_PAD_R_04LOD0: {fileID: 0}
-  SHOULDER_PAD_L_01LOD0: {fileID: 0}
-  SHOULDER_PAD_L_02LOD0: {fileID: 0}
-  SHOULDER_PAD_L_03LOD0: {fileID: 0}
-  SHOULDER_PAD_L_04LOD0: {fileID: 0}
-  ARM_PLATE_R_1LOD0: {fileID: 0}
-  ARM_PLATE_R_2LOD0: {fileID: 0}
-  ARM_PLATE_L_1LOD0: {fileID: 0}
-  ARM_PLATE_L_2LOD0: {fileID: 0}
-  AXE_01LOD0: {fileID: 0}
-  AXE_02LOD0: {fileID: 0}
-  CLUB_01LOD0: {fileID: 0}
-  CLUB_02LOD0: {fileID: 0}
-  FALCHION_LOD0: {fileID: 0}
-  GLADIUS_LOD0: {fileID: 0}
-  MACE_LOD0: {fileID: 0}
-  MAUL_LOD0: {fileID: 0}
-  SCIMITAR_LOD0: {fileID: 0}
-  SPEAR_LOD0: {fileID: 0}
-  SWORD_BASTARD_LOD0: {fileID: 0}
-  SWORD_BOARD_01LOD0: {fileID: 0}
-  SWORD_SHORT_LOD0: {fileID: 0}
-  SHIELD_01LOD0: {fileID: 0}
-  SHIELD_02LOD0: {fileID: 0}
-  QUIVER_LOD0: {fileID: 0}
-  BOW_01_LOD0: {fileID: 0}
-  KNEE_PAD_R_LOD0: {fileID: 0}
-  LEG_PLATE_R_LOD0: {fileID: 0}
-  KNEE_PAD_L_LOD0: {fileID: 0}
-  LEG_PLATE_L_LOD0: {fileID: 0}
-  BOOT_01LOD0: {fileID: 0}
-  BOOT_02LOD0: {fileID: 0}
-  ROTATE_MODEL: 0
+  playerCharacterData:
+    name: 
+    description: 
+    strength: 0
+    defense: 0
+    dexterity: 0
+    intelligence: 0
+    health: 0
+    selectedShoulderPad: 0
+    selectedBodyType: 1
+    kneePad: 0
+    legPlate: 0
+    selectedWeapon: 0
+    selectedHelmet: 0
+    selectedShield: 0
+    SKIN_ID: 1
+    selectedBoot: 0
 --- !u!1 &493188721
 GameObject:
   m_ObjectHideFlags: 0
@@ -2206,7 +2152,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 491478915}
+      - m_Target: {fileID: 1562951662}
         m_MethodName: SetSkinType
         m_Mode: 2
         m_Arguments:
@@ -2915,7 +2861,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 80, y: -107.3}
+  m_AnchoredPosition: {x: 80, y: -107.29999}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1343585493
@@ -3604,9 +3550,10 @@ GameObject:
   - component: {fileID: 1562951660}
   - component: {fileID: 1562951659}
   - component: {fileID: 1562951658}
+  - component: {fileID: 1562951662}
   m_Layer: 0
   m_Name: Base
-  m_TagString: Untagged
+  m_TagString: BASE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3675,6 +3622,106 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1562951662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1562951657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c35d0474726f2b6429cf988a9dacff69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PLAYER_CHARACTER: {fileID: 491478914}
+  PC_CC:
+    name: 
+    description: 
+    strength: 0
+    defense: 0
+    dexterity: 0
+    intelligence: 0
+    health: 0
+    selectedShoulderPad: 0
+    selectedBodyType: 1
+    kneePad: 0
+    legPlate: 0
+    selectedWeapon: 0
+    selectedHelmet: 0
+    selectedShield: 0
+    SKIN_ID: 1
+    selectedBoot: 0
+  PLAYER_SKIN:
+  - {fileID: 2100000, guid: 159ef2c65b32fdc40bbc90a097f57688, type: 2}
+  - {fileID: 2100000, guid: 479bed60f8e842e4eaeaeee19705c358, type: 2}
+  - {fileID: 2100000, guid: 8aedc65b298239f4ca5b3e11344781c1, type: 2}
+  - {fileID: 2100000, guid: 3052986baa7616940a7edfb486d7c431, type: 2}
+  - {fileID: 2100000, guid: c9cd85b7607328745ae69a4fe3e76d0b, type: 2}
+  - {fileID: 2100000, guid: 55920bb9f7f471c4eaa48e457090c946, type: 2}
+  - {fileID: 2100000, guid: 069015fb795c2f44daf1d8c54aab81be, type: 2}
+  - {fileID: 2100000, guid: c59fa1eae889d874f93fc306e33cf844, type: 2}
+  - {fileID: 2100000, guid: 2543bda4816203446adfeb31c80716b1, type: 2}
+  - {fileID: 2100000, guid: f111079428c838343a248141db958de6, type: 2}
+  - {fileID: 2100000, guid: cd8e860dd6400b9498b2fd1749ebfd8c, type: 2}
+  - {fileID: 2100000, guid: ce0e25d07ceddfc4ab142f0dbdf69a99, type: 2}
+  - {fileID: 2100000, guid: 4d4b25a3e11090542acaaae2149719c5, type: 2}
+  - {fileID: 2100000, guid: 3ea81558f28f62e40b43b8e56242e763, type: 2}
+  - {fileID: 2100000, guid: 8371ab646f271aa40bd3fa052f77837c, type: 2}
+  - {fileID: 2100000, guid: a7fa442b4f06b79429e730b60e06e931, type: 2}
+  CLOTH_01LOD0: {fileID: 507680075}
+  CLOTH_01LOD0_SKIN: {fileID: 0}
+  CLOTH_02LOD0: {fileID: 1996938346}
+  CLOTH_02LOD0_SKIN: {fileID: 0}
+  CLOTH_03LOD0: {fileID: 190455253}
+  CLOTH_03LOD0_SKIN: {fileID: 0}
+  CLOTH_03LOD0_FAT: {fileID: 741909179}
+  BELT_LOD0: {fileID: 2117147377}
+  SKN_LOD0: {fileID: 1536080783}
+  FAT_LOD0: {fileID: 38020720}
+  RGL_LOD0: {fileID: 1536080783}
+  HAIR_LOD0: {fileID: 0}
+  BOW_LOD0: {fileID: 0}
+  GLADIATOR_01LOD0: {fileID: 0}
+  HELMET_01LOD0: {fileID: 0}
+  HELMET_02LOD0: {fileID: 0}
+  HELMET_03LOD0: {fileID: 0}
+  HELMET_04LOD0: {fileID: 0}
+  SHOULDER_PAD_R_01LOD0: {fileID: 0}
+  SHOULDER_PAD_R_02LOD0: {fileID: 0}
+  SHOULDER_PAD_R_03LOD0: {fileID: 0}
+  SHOULDER_PAD_R_04LOD0: {fileID: 0}
+  SHOULDER_PAD_L_01LOD0: {fileID: 0}
+  SHOULDER_PAD_L_02LOD0: {fileID: 0}
+  SHOULDER_PAD_L_03LOD0: {fileID: 0}
+  SHOULDER_PAD_L_04LOD0: {fileID: 0}
+  ARM_PLATE_R_1LOD0: {fileID: 0}
+  ARM_PLATE_R_2LOD0: {fileID: 0}
+  ARM_PLATE_L_1LOD0: {fileID: 0}
+  ARM_PLATE_L_2LOD0: {fileID: 0}
+  AXE_01LOD0: {fileID: 0}
+  AXE_02LOD0: {fileID: 0}
+  CLUB_01LOD0: {fileID: 0}
+  CLUB_02LOD0: {fileID: 0}
+  FALCHION_LOD0: {fileID: 0}
+  GLADIUS_LOD0: {fileID: 0}
+  MACE_LOD0: {fileID: 0}
+  MAUL_LOD0: {fileID: 0}
+  SCIMITAR_LOD0: {fileID: 0}
+  SPEAR_LOD0: {fileID: 0}
+  SWORD_BASTARD_LOD0: {fileID: 0}
+  SWORD_BOARD_01LOD0: {fileID: 0}
+  SWORD_SHORT_LOD0: {fileID: 0}
+  SHIELD_01LOD0: {fileID: 0}
+  SHIELD_02LOD0: {fileID: 0}
+  QUIVER_LOD0: {fileID: 0}
+  BOW_01_LOD0: {fileID: 0}
+  KNEE_PAD_R_LOD0: {fileID: 0}
+  LEG_PLATE_R_LOD0: {fileID: 0}
+  KNEE_PAD_L_LOD0: {fileID: 0}
+  LEG_PLATE_L_LOD0: {fileID: 0}
+  BOOT_01LOD0: {fileID: 0}
+  BOOT_02LOD0: {fileID: 0}
+  ROTATE_MODEL: 0
 --- !u!1 &1593004594
 GameObject:
   m_ObjectHideFlags: 0
@@ -4891,7 +4938,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1965411552}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 114996916031029260, guid: 0a93d998e7d92ee49a03a7077298f689,
+          type: 2}
+        m_MethodName: LoadLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1965411552
@@ -5181,6 +5240,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 159ef2c65b32fdc40bbc90a097f57688, type: 2}
+    - target: {fileID: 1059721809612482, guid: a41954ba1e91e4e44a1b48dcc17262a5, type: 2}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a41954ba1e91e4e44a1b48dcc17262a5, type: 2}
   m_IsPrefabParent: 0
