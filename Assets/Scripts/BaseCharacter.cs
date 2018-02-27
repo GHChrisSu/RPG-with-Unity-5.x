@@ -9,6 +9,10 @@ public class BaseCharacter
     private string name;
     [SerializeField]
     private string description;
+    [SerializeField]
+    private string tag;
+
+    internal GameObject characterGO;
 
     [SerializeField]
     private float strength;
@@ -23,6 +27,7 @@ public class BaseCharacter
 
 
 
+
     public string NAME
     {
         get { return this.name; }
@@ -33,6 +38,12 @@ public class BaseCharacter
     {
         get { return this.description; }
         set { this.description = value; }
+    }
+
+    public string TAG
+    {
+        get { return this.tag; }
+        set { this.tag = value; }
     }
 
     public float STRENGTH
@@ -62,6 +73,20 @@ public class BaseCharacter
     public float HEALTH
     {
         get { return this.health; }
-        set { this.health = value; }
+        set
+        {
+            this.health = value;
+            if (this.tag.Equals("Player"))
+            {
+                if (GameMaster.instance.UI.hudUI != null)
+                {
+                    GameMaster.instance.UI.hudUI.imgHealthBar.fillAmount = this.health / 100.0f;
+                }
+            }
+            else
+            {
+                this.characterGO.GetComponent<NPC_Agent>().SetHealthValue(this.health / 100.0f);
+            }
+        }
     }
 }

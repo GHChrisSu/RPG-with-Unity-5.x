@@ -811,7 +811,7 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves:
-      - name: Curve
+      - name: Attack1C
         curve:
           serializedVersion: 2
           curve:
@@ -822,22 +822,22 @@ ModelImporter:
             outSlope: 1
             tangentMode: 0
           - serializedVersion: 2
-            time: 0.21756867
-            value: 0.95935035
-            inSlope: 0.63232183
-            outSlope: 0.63232183
+            time: 0.23211011
+            value: 1.0004029
+            inSlope: -0.009190755
+            outSlope: -0.009190755
             tangentMode: 0
           - serializedVersion: 2
             time: 0.5122782
-            value: 1.0031931
+            value: 1.0000224
             inSlope: 0.042877022
             outSlope: 0.042877022
             tangentMode: 0
           - serializedVersion: 2
-            time: 0.7848335
-            value: 0.9908878
-            inSlope: -0.24914399
-            outSlope: -0.24914399
+            time: 0.7889117
+            value: 1.0000224
+            inSlope: 0.020436248
+            outSlope: 0.020436248
             tangentMode: 0
           - serializedVersion: 2
             time: 1.1634786
@@ -848,7 +848,14 @@ ModelImporter:
           preInfinity: 2
           postInfinity: 2
           rotationOrder: 0
-      events: []
+      events:
+      - time: 0.4241635
+        functionName: Attack1
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}

@@ -11,6 +11,8 @@ public class PlayerAgent : MonoBehaviour {
     void Awake()
     {
         PC tmp = new PC();
+        tmp.TAG = this.transform.gameObject.tag;
+        tmp.characterGO = this.transform.gameObject;
         tmp.NAME = "Maximilian";
         tmp.HEALTH = 100.0f;
         tmp.DEFENSE = 50.0f;
@@ -18,12 +20,11 @@ public class PlayerAgent : MonoBehaviour {
         tmp.DEXTERITY = 33.0f;
         tmp.INTELLIGENCE = 80.0f;
         tmp.STRENGTH = 60.0f;
-
         this.playerCharacterData = tmp;
     }
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
 	
 	}
 	

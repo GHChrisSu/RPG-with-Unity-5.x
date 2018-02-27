@@ -133,18 +133,23 @@ public class GameMaster : MonoBehaviour
     void OnLevelWasLoaded()
     {
         GameMaster.instance.LEVEL_CONTROLLER.OnLevelWasLoaded();
-
         // find all NPC GameObjects of Enemy type
         if (GameObject.FindGameObjectsWithTag("ENEMY").Length > 0)
         {
             var tmpGONPCEnemy = GameObject.FindGameObjectsWithTag("ENEMY");
-
             GameMaster.instance.goListNPCEnemy.Clear();
             foreach (GameObject goTmpNPCEnemy in tmpGONPCEnemy)
             {
                 instance.goListNPCEnemy.Add(goTmpNPCEnemy);
+                instance.closestNPCEnemy = goTmpNPCEnemy;
             }
         }
+    }
+
+    public void PlayerAttackEnemy()
+    {
+        NPC npc = instance.closestNPCEnemy.GetComponent<NPC_Agent>().npcData;
+        npc.HEALTH -= 1;
     }
 
     // Use this for initialization

@@ -76,28 +76,6 @@ public class NPC_Movement : MonoBehaviour
 
     void Update()
     {
-        //Vector3 VectorResult;
-        //float DotResult = Vector3.Dot(transform.forward, player.transform.forward);
-        //if (DotResult > 0)
-        //{
-        //    VectorResult = transform.forward + player.transform.forward;
-        //}
-        //else
-        //{
-        //    VectorResult = transform.forward - player.transform.forward;
-        //}
-
-        //Debug.Log(VectorResult);
-
-
-        //if (DEBUG_DRAW)
-        //{
-        //    Debug.DrawRay(player.transform.position+Vector3.up, player.transform.forward * 50, Color.black);
-        //    Debug.DrawRay(transform.position+Vector3.up, transform.forward * 50, Color.yellow);
-
-        //    Debug.DrawRay(transform.position, VectorResult * 100, Color.green);
-        //}
-
         // if player is in sight let's slerp towards the player
         if (playerInSight)
         {
@@ -135,13 +113,13 @@ public class NPC_Movement : MonoBehaviour
         animator.SetFloat("AngularSpeed", v);
         animator.SetBool("Attack", attack1);
         animator.SetBool("Attack1", attack1);
+    }
 
-        if(playerInSight)
+    public void Attack1()
+    {
+        if (playerInSight)
         {
-            if (animator.GetFloat("Attack1C") == 1.0f)
-            {
-                this.player.GetComponent<PlayerAgent>().playerCharacterData.HEALTH -= 1.0f;
-            }
+            this.player.GetComponent<PlayerAgent>().playerCharacterData.HEALTH -= 1.0f;
         }
     }
 

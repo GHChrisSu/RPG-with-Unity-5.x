@@ -107,11 +107,29 @@ public class InventorySystem
                 }
             case BaseItem.ItemCatrgory.HEALTH:
                 {
-                    this.health.Remove(item);
+                    // let's find the item and mark it for removal
+                    InventoryItem tmp = null;
+                    foreach (InventoryItem i in this.health)
+                    {
+                        if (item.CATEGORY.Equals(i.CATEGORY) && item.NAME.Equals(i.NAME) && item.STRENGTH.Equals(i.STRENGTH))
+                        {
+                            tmp = i;
+                        }
+                    }
+                    this.health.Remove(tmp);
                     break;
                 }
             case BaseItem.ItemCatrgory.POTION:
                 {
+                    // let's find the item and mark it for removal
+                    InventoryItem tmp = null;
+                    foreach (InventoryItem i in this.health)
+                    {
+                        if (item.CATEGORY.Equals(i.CATEGORY) && item.NAME.Equals(i.NAME) && item.STRENGTH.Equals(i.STRENGTH))
+                        {
+                            tmp = i;
+                        }
+                    }
                     this.potion.Remove(item);
                     break;
                 }
