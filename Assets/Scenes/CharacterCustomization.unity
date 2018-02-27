@@ -243,7 +243,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &38020720 stripped
 GameObject:
@@ -796,6 +796,54 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
   m_IsOn: 1
+--- !u!1001 &216764634
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4502052503255408, guid: f8b3170a334160040b29d63b9908ab4a, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 747.4582
+      objectReference: {fileID: 0}
+    - target: {fileID: 4502052503255408, guid: f8b3170a334160040b29d63b9908ab4a, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 381.6032
+      objectReference: {fileID: 0}
+    - target: {fileID: 4502052503255408, guid: f8b3170a334160040b29d63b9908ab4a, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -25.433502
+      objectReference: {fileID: 0}
+    - target: {fileID: 4502052503255408, guid: f8b3170a334160040b29d63b9908ab4a, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4502052503255408, guid: f8b3170a334160040b29d63b9908ab4a, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4502052503255408, guid: f8b3170a334160040b29d63b9908ab4a, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4502052503255408, guid: f8b3170a334160040b29d63b9908ab4a, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4502052503255408, guid: f8b3170a334160040b29d63b9908ab4a, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: f8b3170a334160040b29d63b9908ab4a, type: 2}
+  m_IsPrefabParent: 0
+--- !u!114 &216764635 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114998311543035384, guid: f8b3170a334160040b29d63b9908ab4a,
+    type: 2}
+  m_PrefabInternal: {fileID: 216764634}
+  m_Script: {fileID: 11500000, guid: 49fc320f29257f0408bf2d2c6cafe6b9, type: 3}
 --- !u!1 &219737403
 GameObject:
   m_ObjectHideFlags: 0
@@ -1364,13 +1412,18 @@ MonoBehaviour:
     health: 0
     selectedShoulderPad: 0
     selectedBodyType: 1
-    kneePad: 0
-    legPlate: 0
     selectedWeapon: 0
     selectedHelmet: 0
     selectedShield: 0
     SKIN_ID: 1
     selectedBoot: 0
+    selectedArmour:
+      name: 
+      description: 
+      category: 0
+      type: 0
+      strength: 0
+      weight: 0
 --- !u!1 &493188721
 GameObject:
   m_ObjectHideFlags: 0
@@ -1852,13 +1905,55 @@ RectTransform:
   - {fileID: 1105219374}
   - {fileID: 1067536168}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1001 &633043208
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4950276691028188, guid: 4e0a35ca0de747e4d857b4755002035f, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 12.941343
+      objectReference: {fileID: 0}
+    - target: {fileID: 4950276691028188, guid: 4e0a35ca0de747e4d857b4755002035f, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 28.827427
+      objectReference: {fileID: 0}
+    - target: {fileID: 4950276691028188, guid: 4e0a35ca0de747e4d857b4755002035f, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 48.29199
+      objectReference: {fileID: 0}
+    - target: {fileID: 4950276691028188, guid: 4e0a35ca0de747e4d857b4755002035f, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4950276691028188, guid: 4e0a35ca0de747e4d857b4755002035f, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0.00000013747119
+      objectReference: {fileID: 0}
+    - target: {fileID: 4950276691028188, guid: 4e0a35ca0de747e4d857b4755002035f, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4950276691028188, guid: 4e0a35ca0de747e4d857b4755002035f, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.00000013747119
+      objectReference: {fileID: 0}
+    - target: {fileID: 4950276691028188, guid: 4e0a35ca0de747e4d857b4755002035f, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 4e0a35ca0de747e4d857b4755002035f, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &655245908
 GameObject:
   m_ObjectHideFlags: 0
@@ -3042,7 +3137,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &1382697986
 GameObject:
@@ -3620,7 +3715,7 @@ Transform:
   m_LocalScale: {x: 5, y: 0.1, z: 5}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1562951662
 MonoBehaviour:
@@ -3644,13 +3739,18 @@ MonoBehaviour:
     health: 0
     selectedShoulderPad: 0
     selectedBodyType: 1
-    kneePad: 0
-    legPlate: 0
     selectedWeapon: 0
     selectedHelmet: 0
     selectedShield: 0
     SKIN_ID: 1
     selectedBoot: 0
+    selectedArmour:
+      name: 
+      description: 
+      category: 0
+      type: 0
+      strength: 0
+      weight: 0
   PLAYER_SKIN:
   - {fileID: 2100000, guid: 159ef2c65b32fdc40bbc90a097f57688, type: 2}
   - {fileID: 2100000, guid: 479bed60f8e842e4eaeaeee19705c358, type: 2}
@@ -4787,7 +4887,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1896222249
 GameObject:
@@ -4939,8 +5039,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114996916031029260, guid: 0a93d998e7d92ee49a03a7077298f689,
-          type: 2}
+      - m_Target: {fileID: 216764635}
         m_MethodName: LoadLevel
         m_Mode: 1
         m_Arguments:
@@ -5233,7 +5332,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4762536853659190, guid: a41954ba1e91e4e44a1b48dcc17262a5, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 23538771321188814, guid: a41954ba1e91e4e44a1b48dcc17262a5,
         type: 2}
@@ -5247,6 +5346,121 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a41954ba1e91e4e44a1b48dcc17262a5, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &2027270062 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1098968883863712, guid: a41954ba1e91e4e44a1b48dcc17262a5,
+    type: 2}
+  m_PrefabInternal: {fileID: 2027270061}
+--- !u!1 &2027270063 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1857883111283188, guid: a41954ba1e91e4e44a1b48dcc17262a5,
+    type: 2}
+  m_PrefabInternal: {fileID: 2027270061}
+--- !u!1 &2027270064 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1563245656605300, guid: a41954ba1e91e4e44a1b48dcc17262a5,
+    type: 2}
+  m_PrefabInternal: {fileID: 2027270061}
+--- !u!1 &2027270065 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1904329119192726, guid: a41954ba1e91e4e44a1b48dcc17262a5,
+    type: 2}
+  m_PrefabInternal: {fileID: 2027270061}
+--- !u!1 &2027270066 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1866059879759212, guid: a41954ba1e91e4e44a1b48dcc17262a5,
+    type: 2}
+  m_PrefabInternal: {fileID: 2027270061}
+--- !u!114 &2027270067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2027270062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5fc875d1891c949946bd4f695225fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ItemDescription:
+    name: barbarian_helmet_04
+    description: barbarian_helmet_04
+    category: 1
+    type: 0
+    strength: 0.2
+    weight: 0.2
+--- !u!114 &2027270068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2027270063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5fc875d1891c949946bd4f695225fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ItemDescription:
+    name: barbarian_helmet_03
+    description: barbarian_helmet_03
+    category: 1
+    type: 0
+    strength: 0.2
+    weight: 0.2
+--- !u!114 &2027270069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2027270064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5fc875d1891c949946bd4f695225fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ItemDescription:
+    name: barbarian_helmet_02
+    description: barbarian_helmet_02
+    category: 1
+    type: 0
+    strength: 0.2
+    weight: 0.2
+--- !u!114 &2027270070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2027270065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5fc875d1891c949946bd4f695225fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ItemDescription:
+    name: barbarian_helmet_01
+    description: barbarian_helmet_01
+    category: 1
+    type: 0
+    strength: 0.2
+    weight: 0.2
+--- !u!114 &2027270071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2027270066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5fc875d1891c949946bd4f695225fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ItemDescription:
+    name: barbarian_gladiator_01
+    description: barbarian_gladiator_01
+    category: 1
+    type: 0
+    strength: 0.2
+    weight: 0.2
 --- !u!1 &2029228360
 GameObject:
   m_ObjectHideFlags: 0

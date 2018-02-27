@@ -9,17 +9,17 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1010450618806164}
+  m_RootGameObject: {fileID: 1556232394187580}
   m_IsPrefabParent: 1
---- !u!1 &1010450618806164
+--- !u!1 &1556232394187580
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4529389463929156}
-  - component: {fileID: 114996916031029260}
+  - component: {fileID: 4502052503255408}
+  - component: {fileID: 114998311543035384}
   m_Layer: 0
   m_Name: uiController
   m_TagString: UI
@@ -27,12 +27,12 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4529389463929156
+--- !u!4 &4502052503255408
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1010450618806164}
+  m_GameObject: {fileID: 1556232394187580}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 747.4582, y: 381.6032, z: -25.433502}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -40,12 +40,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114996916031029260
+--- !u!114 &114998311543035384
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1010450618806164}
+  m_GameObject: {fileID: 1556232394187580}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 49fc320f29257f0408bf2d2c6cafe6b9, type: 3}
@@ -53,3 +53,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SettingsCanvas: {fileID: 0}
   ControlMainVolume: {fileID: 0}
+  InventoryCanvas: {fileID: 0}
+  PanelItem: {fileID: 0}
+  InventoryItemElement: {fileID: 0}

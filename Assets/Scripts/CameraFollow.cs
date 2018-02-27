@@ -16,8 +16,7 @@ public class CameraFollow : MonoBehaviour
    // Use this for initialization
    void Start()
    {
-      if(this.FOLLOW_ME)
-         this.follow = GameObject.FindGameObjectWithTag("FOLLOW").transform;
+
    }
 
    // Update is called once per frame
